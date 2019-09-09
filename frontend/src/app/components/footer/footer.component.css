@@ -1,0 +1,14 @@
+#footer {
+    margin-top: 6em;
+    position: relative;
+    bottom: -8em;
+    left: 0;
+    padding: 1.3em;
+    height: 6em;
+    width: 100%;
+}
+
+.footer-background {
+    background-color: #525357;
+    height: 6em;
+}

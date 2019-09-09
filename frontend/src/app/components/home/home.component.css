@@ -1,0 +1,53 @@
+.margin-top {
+    margin-top: 5em;
+}
+
+.img-walk {
+    width: 5em;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.icon-home {
+    margin-top: 2em;
+    width: 4em;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.card-home {
+    border-style: solid;
+    border-color: #a0a0a0;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 2em;
+}
+
+.space-between-cards {
+    align-items: center;
+    align-content: space-around;
+}
+
+
+.text-card {
+    margin-top: 1em;
+}
+
+.card-button {
+    margin-top: 2em;
+}
+
+.montserrat-bold {
+    font-family: 'Montserrat Bold', sans-serif;
+}
+
+.montserrat-medium {
+    font-family: 'Montserrat Medium', sans-serif;
+}
+
+.montserrat-light {
+    font-family: 'Montserrat Light', sans-serif;
+}

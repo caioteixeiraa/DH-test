@@ -1,0 +1,67 @@
+<div class="container">
+  <h2 class="montserrat-bold margin-top-3em">Cadastro de Cliente</h2>
+
+  <form (ngSubmit)="onSubmit()">
+    
+  <div class="row margin-top-3em">
+
+    <div class="col-md-6">
+      <h4 class="montserrat-bold pink">Sobre você</h4>
+      <div class="form-group margin-top-3em">
+        <label class="montserrat-medium" for="inputName">Nome</label>
+        <input type="name" class="form-control col-md-6" id="inputName" placeholder="Nome" [(ngModel)]="cliente.name" name="clienteName" required>
+      </div>
+  
+      <div class="form-group">
+          <label class="montserrat-medium" for="inputCPF">CPF</label>
+          <input type="text" class="form-control col-md-6" id="inputCPF" placeholder="CPF" [(ngModel)]="cliente.cpf" name="clientePhone" required>
+      </div>
+      
+      <div class="form-group">
+          <label class="montserrat-medium" for="inputEmail">E-mail</label>
+          <input type="email" class="form-control col-md-6" id="inputEmail" placeholder="E-mail" [(ngModel)]="cliente.email" name="clienteEmail" required>
+      </div>
+  
+      <div class="form-group">
+            <label class="montserrat-medium" for="inputPhone">Celular</label>
+            <input type="text" class="form-control col-md-6" id="inputPhone" placeholder="Celular" [(ngModel)]="cliente.phone" name="clientePhone" required>
+      </div>
+      
+      <div class="form-group">
+          <label class="montserrat-medium" for="inputEndereco">Endereço</label>
+          <input type="text" class="form-control col-md-6" id="inputEndereco" placeholder="Endereço" [(ngModel)]="cliente.endereco" name="clienteEndereco" required>
+      </div>
+    </div>
+    
+    <div class="col-md-6"> 
+      <h4 class="montserrat-bold pink">Sobre seu Cãozinho</h4>
+      <div class="form-group margin-top-3em">
+          <label class="montserrat-medium" for="inputName">Nome do Cãozinho</label>
+          <input type="name" class="form-control col-md-6" id="inputName" placeholder="Nome do Cãozinho" [(ngModel)]="pet.name" name="petName" required>
+      </div>
+  
+      <div class="form-group">
+            <label class="montserrat-medium" for="inputRaca">Raça</label>
+            <input type="text" class="form-control col-md-6" id="inputRaca" placeholder="Raça" [(ngModel)]="pet.raca" name="petRaca" required>
+      </div>
+      
+      <div class="form-group">
+          <label class="montserrat-medium" for="inputPorte">Porte</label>
+          <input type="text" class="form-control col-md-9" id="inputPorte" placeholder="Porte (ex: pequeno, médio ou grande)" [(ngModel)]="pet.porte" name="petPorte" required>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container row buttons">
+    <a routerLink="">
+      <button type="button" class="button-secondary">Voltar</button>
+    </a>
+    
+      <button type="submit" class="button-primary">Cadastrar</button>
+      
+  </div>
+  
+  
+  </form>
+</div>

@@ -1,0 +1,9 @@
+.img-list {
+    width: 10em;
+    height: auto;
+    border-radius: 50%;
+}
+
+.item-list {
+    margin-bottom: 3em;
+}

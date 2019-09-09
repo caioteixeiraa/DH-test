@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("./assets/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url("./assets/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url("./assets/fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+.montserrat-bold {
+    font-family: 'Montserrat Bold', sans-serif;
+}
+
+.montserrat-medium {
+    font-family: 'Montserrat Medium', sans-serif;
+}
+
+.montserrat-light {
+    font-family: 'Montserrat Light', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top {
+    margin-top: 5em;
+}
+
+
+.margin-top-3em {
+    margin-top: 3em;
+}
+
+.green {
+    color: #2D8277;
+}
+
+.pink {
+    color: #f04f5d;
+}
+
+.button-primary {
+    display: flex;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f04f5d;
+    border: 3px solid #f04f5d;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: padding 0.3s;
+    align-content: flex-start;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+    margin-top: 2em;
+  }
+
+  .button-primary:hover {
+    padding: 0.75rem 2.5rem;
+  }
+
+.button-secondary {
+    display: flex;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-weight: 600;
+    color: #f04f5d;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 3px solid #f04f5d;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: padding 0.3s;
+    align-content: flex-start;
+    margin-top: 2em;
+    margin-right: 1em;
+  }
+  
+  .button-secondary:hover {
+    padding: 0.75rem 2.5rem;
+  }
+
+  :placeholder-shown {
+    font-family: 'Montserrat Light', sans-serif;
+}

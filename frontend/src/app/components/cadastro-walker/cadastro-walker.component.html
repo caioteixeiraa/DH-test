@@ -1,0 +1,44 @@
+ <div class="container">
+    <h2 class="montserrat-bold margin-top-3em">Cadastro de Passeador</h2>
+  
+    <form (ngSubmit)="onSubmit()">
+
+        <h4 class="montserrat-bold pink margin-top-3em">Sobre você</h4>
+        <div class="form-group margem-correc">
+          <label class="montserrat-medium" for="">Nome</label>
+          <input type="text" class="form-control col-md-4" id="inputName" placeholder="Nome" [(ngModel)]="walker.name" name="walkerName" required>
+        </div>
+    
+        <div class="form-group">
+            <label class="montserrat-medium" for="">CPF</label>
+            <input type="text" class="form-control col-md-4" id="inputCPF" placeholder="CPF" [(ngModel)]="walker.cpf" name="walkerCPF" required>
+        </div>
+        
+        <div class="form-group">
+            <label class="montserrat-medium" for="">E-mail</label>
+            <input type="email" class="form-control col-md-4" id="inputEmail" placeholder="E-mail" [(ngModel)]="walker.email" name="walkerEmail" required>
+        </div>
+    
+        <div class="form-group">
+              <label class="montserrat-medium" for="">Celular</label>
+              <input type="text" class="form-control col-md-4" id="inputPhone" placeholder="Celular" [(ngModel)]="walker.phone" name="walkerPhone" required>
+        </div>
+        
+        <div class="form-group">
+            <label class="montserrat-medium" for="">Endereço</label>
+            <input type="text" class="form-control col-md-4" id="inputEndereco" placeholder="Endereço" [(ngModel)]="walker.endereco" name="walkerEndereco" required>
+        </div>
+
+
+  <div class="container row buttons">
+
+    <a routerLink="">
+      <button type="button" class="button-secondary">Voltar</button>
+    </a>
+    <button type="submit" class="button-primary">Cadastrar</button>
+            
+  </div>
+          
+    
+    </form>
+  </div>
