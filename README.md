@@ -10,18 +10,18 @@ git clone https://github.com/caioteixeiraa/DH-test.git
 cd DH-test
 ```
 
-2. Iniciar a aplicação em back-end que está em *Ruby on Rails*:
+2. Iniciar a aplicação em back-end que está em *Ruby on Rails* na porta **3000**:
 ```
 cd backend/
 bundle install
 rails s
 ```
 
-3. Abrir **outro terminal** e iniciar a aplicação em front-end que está em *Angular 2.3.1*:
+3. Abrir **outro terminal** e iniciar a aplicação em front-end que está em *Angular 2.3.1* na porta **4200**:
 ```
 cd DH-test/frontend/
 npm install
 ng serve
 ```
 
-4. Have fun!
+4. **Have fun!**
