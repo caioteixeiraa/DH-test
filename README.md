@@ -1,4 +1,4 @@
-# Case DogHero Junior Software Engineer
+# Case DogHero - Junior Software Engineer
 
 ## Desafio:
 Criar as telas de cadastro, listagem, apresentação do pet, cliente e passeador para o novo serviço de passeios da DogHero.
